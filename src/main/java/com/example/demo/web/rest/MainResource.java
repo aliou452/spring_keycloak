@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestResource {
+public class MainResource {
 
 
     private final KeycloakService keycloakService;
 
-    public TestResource(KeycloakService keycloakService) {
+    public MainResource(KeycloakService keycloakService) {
         this.keycloakService = keycloakService;
     }
 
