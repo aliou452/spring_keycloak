@@ -7,3 +7,9 @@ spring:
 
 server:
   port: 8081
+
+keycloak:
+  serverUrl: http://keycloak-dsitoolchainsharedservices.apps.malaaw-rec.orange-sonatel.com/auth
+  realm: kudo_mood_cho
+  client-id: kudo
+  client-secret: fc39b93b-5544-4aa1-899b-c653f20018c3
